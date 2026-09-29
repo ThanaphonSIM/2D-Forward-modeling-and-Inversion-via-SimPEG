@@ -1,0 +1,9 @@
+simpeg==0.25.2
+discretize
+geoana
+numpy
+scipy
+matplotlib
+jupyter
+# optional, faster direct solver (needs Intel MKL):
+# pydiso
