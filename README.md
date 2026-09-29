@@ -66,7 +66,7 @@ In SimPEG these are solved by
 ### 3. Observed quantities: apparent resistivity and phase
 
 $$
-\rho_a = \frac{|Z|^2}{\omega\mu_0}, \qquad \phi = \arg(Z) = \tan^{-1}\!\left(\frac{\operatorname{Im} Z}{\operatorname{Re} Z}\right)
+\rho_a = \frac{|z|^2}{\omega\mu_0}, \qquad \phi = \arg(z) = \tan^{-1}\!\left(\frac{\operatorname{Im} z}{\operatorname{Re} z}\right)
 $$
 
 Over a uniform half-space, $\rho_a$ equals the true resistivity at every frequency and $|\phi| = 45^\circ$. This exact solution is used as a benchmark in notebook 02. SimPEG returns the TM ($Z_{xy}$) phase in a different quadrant than the TE phase, so the notebooks add 180° to the TM phase when plotting.
